@@ -1,0 +1,37 @@
+.background_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+  background-color: #f1f5f8;
+  overflow: auto;
+  width: 100%;
+}
+
+.main_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  background-color: #ffffff;
+  border-style: solid;
+  border-width: 0px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+
+.main_heading {
+  font-size: 50px;
+  color: #cb8805;
+}
+
+.unList {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
